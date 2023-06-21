@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+table{
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    border-spacing: 0px;
+    margin: auto;
+    margin-top: 220px;
+}
+
+#photo{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-position: center;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#text{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    word-break: break-word;
+}
+
+#button{
+    text-decoration: none;
+    display: table;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(61, 129, 104);
+    color: #fff;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.btn{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#heading{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    line-height: 30px; 
+}
+
+
+p{
+    padding-top: 20px;
+    font-size: 14px;
+    font-family:monospace;
+    color: hsl(228, 12%, 48%);
+
+}
+
+#price{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    color: rgb(61, 129, 104);
+    display: inline;
+    float: left;
+}
+
+#oprice{
+    margin-top: 20px;
+}
+
+#button:hover{
+    background-color:rgb(26, 64, 49);
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+footer{
+    text-align: center;
+}
